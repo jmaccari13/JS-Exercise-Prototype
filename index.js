@@ -22,7 +22,7 @@ function Airplane(name) {
   
   /*
   // 👇 COMPLETE YOUR WORK BELOW 👇
-  // 👇 COMPLETE YOUR WORK BELOW 👇
+  // 👇 COMPLETE YOUR WORK BELOW 👇 
   // 👇 COMPLETE YOUR WORK BELOW 👇
   */
   
@@ -39,9 +39,23 @@ function Airplane(name) {
           + It should return a string with `name` and `age`. Example: "Mary, 50"
   */
   
- function Person() {
+ function Person(name, age) {
+   this.name;
+   this.age;
+   this.stomach = [];
+ }
+ Person.prototype.eat = function(edible){
+   if(this.stomach.length< 10){
+     this.stomach.push(someFood);
+   }
+   this.poop = function(){
+     return '${this.name}, ${this.age}'}
     
   }
+  this.name(Allie);
+  this.age(35);
+  console.log(person)
+  
  
  
 
