@@ -52,9 +52,10 @@ function Airplane(name) {
      return '${this.name}, ${this.age}'}
     
   }
-  this.name(Allie);
-  this.age(35);
-  console.log(person)
+  
+   this.name('Allie');
+   this.age(35);
+  console.log(person,age)
 
  
  
@@ -77,7 +78,9 @@ function Airplane(name) {
           + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
   */
   
- function Car(model, ) {
+ function Car(model, milesPerGallon) {
+   
+
     
   }
   
